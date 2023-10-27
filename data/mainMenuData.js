@@ -8,35 +8,35 @@ export const homeItems = [
     routePath: "/home/home_2",
   },
   {
-    name: "Home 03",
+    name: "Principal",
     routePath: "/home/home_3",
   },
   {
-    name: "Home 04",
+    name: "Hoteles",
     routePath: "/home/home_4",
   },
   {
-    name: "Home 05",
+    name: "Excursiones",
     routePath: "/home/home_5",
   },
   {
-    name: "Home 06",
+    name: "Excursiones 2 o campamentos",
     routePath: "/home/home_6",
   },
   {
-    name: "Home 07",
+    name: "Rentas de Depas y Casa (AirBB)",
     routePath: "/home/home_7",
   },
   {
-    name: "Home 08",
+    name: "Renta de autos",
     routePath: "/home/home_8",
   },
   {
-    name: "Home 09",
+    name: "Cruceros",
     routePath: "/home/home_9",
   },
   {
-    name: "Home 10",
+    name: "Vuelos",
     routePath: "/home/home_10",
   },
 ];

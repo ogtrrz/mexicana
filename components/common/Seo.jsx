@@ -5,7 +5,7 @@ const Seo = ({ pageTitle }) => (
     <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || GoTrip - Travel & Tour React NextJS Template}`}
+          `${pageTitle} || Mexicana.mx - Vuelos, Hoteles, Autos, Experiencias y mucho mas}`}
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>

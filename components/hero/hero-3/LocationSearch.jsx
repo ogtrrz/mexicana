@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addSearchDetail } from "../../../features/hero/hotelSearchSlice";
 
 const LocationSearch = () => {
   const [searchValue, setSearchValue] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
+  const dispatch = useDispatch();
 
   const locationSearchContent = [
     {
@@ -35,6 +38,7 @@ const LocationSearch = () => {
   const handleOptionClick = (item) => {
     setSearchValue(item.name);
     setSelectedItem(item);
+    dispatch(addSearchDetail({ location: item }));
   };
 
   return (
@@ -45,12 +49,12 @@ const LocationSearch = () => {
           data-bs-auto-close="true"
           data-bs-offset="0,22"
         >
-          <h4 className="text-15 fw-500 ls-2 lh-16">Location</h4>
+          <h4 className="text-15 fw-500 ls-2 lh-16">Destino</h4>
           <div className="text-15 text-light-1 ls-2 lh-16">
             <input
               autoComplete="off"
               type="search"
-              placeholder="Where are you going?"
+              placeholder="¿Donde viaja?"
               className="js-search js-dd-focus"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}

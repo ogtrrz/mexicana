@@ -18,6 +18,7 @@
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "google-map-react": "^2.2.0",
+    "gson": "^0.1.5",
     "next": "13.2.3",
     "photoswipe": "^5.3.5",
     "react": "18.2.0",

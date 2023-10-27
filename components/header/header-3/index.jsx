@@ -50,8 +50,9 @@ const Header1 = () => {
 
             <div className="col-auto">
               <div className="d-flex items-center">
+                {/* TODO borrar seccion moneda y lenguage */}
                 <div className="row x-gap-20 items-center xxl:d-none">
-                  <CurrenctyMegaMenu textClass="text-dark-1" />
+                  {/* <CurrenctyMegaMenu textClass="text-dark-1" /> */}
                   {/* End Megamenu for Currencty */}
 
                   {/* Start vertical devider*/}
@@ -60,7 +61,7 @@ const Header1 = () => {
                   </div>
                   {/* End vertical devider*/}
 
-                  <LanguageMegaMenu textClass="text-dark-1" />
+                  {/* <LanguageMegaMenu textClass="text-dark-1" /> */}
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End language and currency selector */}

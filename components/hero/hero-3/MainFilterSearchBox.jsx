@@ -37,7 +37,7 @@ const MainFilterSearchBox = () => {
             <div className="searchMenu-date px-30 lg:py-20 lg:px-0 js-form-dd js-calendar">
               <div>
                 <h4 className="text-15 fw-500 ls-2 lh-16">
-                  Check in - Check out
+                  Entrada - Salida
                 </h4>
                 <DateSearch />
               </div>
@@ -53,7 +53,7 @@ const MainFilterSearchBox = () => {
                 onClick={() => Router.push("/hotel/hotel-list-v3")}
               >
                 <i className="icon-search text-20 mr-10" />
-                Search
+                Buscar
               </button>
             </div>
             {/* End search button_item */}

@@ -2,11 +2,11 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head>
         <meta
           name="description"
-          content="GoTrip - Tour & Travel React NextJS Template"
+          content="Mexicana.mx - Vuelos, Hoteles, Autos, Experiencias"
         />
         {/* <!-- Google fonts --> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +22,7 @@ export default function Document() {
 
         <meta
           name="keywords"
-          content="	booking, car rental, cruise, destination, experiences, flight, holiday, hotel, real estate, resort, tour, travel, travel agency, trip, vacation"
+          content="	booking, car rental, cruise, destination, experiences, flight, holiday, hotel, real estate, resort, tour, travel, travel agency, trip, vacation, agencia de viajes, bienes raíces, bienes raíces, crucero, de vacaciones, destino, dia de fiesta, experiencias, hotel, recurso, reserva, turística, viajar, viaje, vuelo"
         />
 
         <link rel="icon" href="/favicon.ico" />

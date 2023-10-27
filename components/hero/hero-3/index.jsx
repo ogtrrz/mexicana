@@ -14,14 +14,14 @@ const index = () => {
                 className="text-60 lg:text-40 md:text-30 text-white"
                 data-aos="fade-up"
               >
-                Discover Your World
+                Descubre México y el Mundo
               </h1>
               <p
                 className="text-white mt-6 md:mt-10"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Discover amzaing places at exclusive deals
+                Descubre lugares increíbles con ofertas exclusivas
               </p>
             </div>
             {/* End hero title */}

@@ -1453,6 +1453,13 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+circularjs@~0.1.0:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/circularjs/-/circularjs-0.1.3.tgz#78adeee059b0bafe0b73967afc21a6225fbe23e6"
+  integrity sha512-RVp6t82JlYMz6CxtGJVoncK7StrDuAIaihiE3dC4T3gE/Pko3ZGxoDibOctjcJKxAIb4C2avHOFA9mDxCKGbbw==
+  dependencies:
+    underscore "~1.6.0"
+
 classlist-polyfill@^1.0.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/classlist-polyfill/-/classlist-polyfill-1.2.0.tgz#935bc2dfd9458a876b279617514638bcaa964a2e"
@@ -3025,6 +3032,13 @@ grapheme-splitter@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
+
+gson@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/gson/-/gson-0.1.5.tgz#97728c7a4521aa23b379c691e6ad90a3d548aee0"
+  integrity sha512-EK+P+vGnmekaPMEg9qC23hTNgRaJ6GfQFS73sYgzvFoVYLMX7dVOUVDbPXRnNtnr99rf6DpOn4wlSbS0puN8AQ==
+  dependencies:
+    circularjs "~0.1.0"
 
 hard-rejection@^2.1.0:
   version "2.1.0"
@@ -6531,6 +6545,11 @@ undeclared-identifiers@^1.1.2:
     get-assigned-identifiers "^1.2.0"
     simple-concat "^1.0.0"
     xtend "^4.0.1"
+
+underscore@~1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
+  integrity sha512-z4o1fvKUojIWh9XuaVLUDdf86RQiq13AC1dmHbTpoyuu+bquHms76v16CjycCbec87J7z0k//SiQVk0sMdFmpQ==
 
 unique-string@^2.0.0:
   version "2.0.0"

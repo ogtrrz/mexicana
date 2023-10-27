@@ -26,7 +26,7 @@ const MainMenu = ({ style = "" }) => {
           } menu-item-has-children`}
         >
           <a href="#">
-            <span className="mr-10">Home</span>
+            <span className="mr-10">Servicios</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
           <ul className="subnav">
@@ -46,7 +46,7 @@ const MainMenu = ({ style = "" }) => {
 
         <li className="menu-item-has-children -has-mega-menu">
           <a href="#">
-            <span className="mr-10">Categories</span>
+            <span className="mr-10">Categorías</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
           <div className="mega">
@@ -54,13 +54,13 @@ const MainMenu = ({ style = "" }) => {
           </div>
         </li>
         {/* End categories menu items */}
-
+        {/* TODO utilizar el indice de blog para enlistar destinos blog/blog-list-v1 */}
         <li className={router.pathname === "/destinations" ? "current" : ""}>
-          <Link href="/destinations">Destinations</Link>
+          <Link href="/destinations">Destinos</Link>
         </li>
         {/* End Destinatinos single menu */}
-
-        <li
+        {/* TODO blog borrar */}
+        {/* <li
           className={`${
             isActiveParentChaild(blogItems, router.asPath) ? "current" : ""
           } menu-item-has-children`}
@@ -81,10 +81,10 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li>
+        </li> 
         {/* End blogIems */}
-
-        <li
+        {/* TODO paginas borrar */}
+        {/* <li
           className={`${
             isActiveParentChaild(pageItems, router.asPath) ? "current" : ""
           } menu-item-has-children`}
@@ -105,10 +105,10 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li>
+        </li> */}
         {/* End pages items */}
-
-        <li
+        {/* TODO blog borrar */}
+        {/* <li
           className={`${
             isActiveParentChaild(dashboardItems, router.asPath) ? "current" : ""
           } menu-item-has-children`}
@@ -129,10 +129,10 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li>
+        </li> */}
 
         <li className={router.pathname === "/contact" ? "current" : ""}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contactanos</Link>
         </li>
       </ul>
     </nav>

@@ -18,7 +18,7 @@ import WhyChoose from "../../components/home/home-3/WhyChoose";
 const home_3 = () => {
   return (
     <>
-      <Seo pageTitle="Home-3" />
+      <Seo pageTitle="Inicio" />
       {/* End Page Title */}
 
       <Header3 />
@@ -32,9 +32,9 @@ const home_3 = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Special Offers</h2>
+                <h2 className="sectionTitle__title">Ofertas especiales</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                  Estos destinos populares tienen mucho que ofrecer.
                 </p>
               </div>
             </div>
